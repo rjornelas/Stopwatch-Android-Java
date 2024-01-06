@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Stopwatch</string>
+    <string name="subtitle">Keep track of how long you can stay focused on your activity</string>
+    <string name="btn_text">Let\'s go!</string>
 </resources>
