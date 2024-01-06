@@ -32,13 +32,10 @@ public class MainActivity extends AppCompatActivity {
         setSplashAnimations();
         setFonts();
 
-        btnStart.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, StopWatchActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
-                startActivity(intent);
-            }
+        btnStart.setOnClickListener(it -> {
+            Intent intent = new Intent(MainActivity.this, StopWatchActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+            startActivity(intent);
         });
 
     }
