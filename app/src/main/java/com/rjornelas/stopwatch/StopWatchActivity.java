@@ -1,7 +1,5 @@
 package com.rjornelas.stopwatch;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.animation.Animation;
@@ -10,7 +8,7 @@ import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.ImageView;
 
-import java.util.concurrent.atomic.AtomicReference;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class StopWatchActivity extends AppCompatActivity {
 
